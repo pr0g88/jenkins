@@ -1,7 +1,7 @@
 #Pulls the base Ubuntu Image from Docker Hub
 From ubuntu
 
-#Lets install NGINX
+#Install NGINX
 RUN apt-get -y update && apt -y install nginx
 
 #Lets copy the local index.html to /tmp
